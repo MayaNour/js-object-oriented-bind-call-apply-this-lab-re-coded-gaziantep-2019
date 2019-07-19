@@ -8,6 +8,6 @@ function setThisWithCall(fn, thisValue, arg){
 }
 
 function setThisWithApply(fn, thisValue, args){
-  const arr = 
+  const arr = Array.prototype.slice.call(args);
   return fn.apply(thisValue, [args])
 }
