@@ -8,5 +8,6 @@ function setThisWithCall(fn, thisValue, arg){
 }
 
 function setThisWithApply(fn, thisValue, args){
+  const arr = 
   return fn.apply(thisValue, [args])
 }
