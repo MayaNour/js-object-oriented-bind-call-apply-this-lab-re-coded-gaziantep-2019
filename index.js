@@ -11,3 +11,5 @@ function setThisWithApply(fn, thisValue, args){
   const arr = Array.prototype.slice.call(args);
   return fn.apply(thisValue, arr);
 }
+
+function 
