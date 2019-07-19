@@ -12,4 +12,6 @@ function setThisWithApply(fn, thisValue, args){
   return fn.apply(thisValue, arr);
 }
 
-function 
+function returnNewFunctionOf(){
+
+}
